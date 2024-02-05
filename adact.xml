@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test thread-count="5" name="Test">
+  <parameter name="userid" value="vaithy2410"></parameter>
+  <parameter name="userpass" value="vaithy@2410"></parameter>
+  <parameter name="loc" value="London"></parameter>
+  <parameter name="hotelname" value="Hotel Sunshine"></parameter>
+  <parameter name="roomType"  value="Super Deluxe"></parameter>
+  <parameter name="numofrooms" value="1"></parameter>
+  <parameter name="checkindate" value="16/09/2023"></parameter>
+  <parameter name="checkoutdate" value="17/09/2023"></parameter>
+  <parameter name="adultsperRoom" value="2"></parameter>
+  <parameter name="childrenperRoom" value="2"></parameter>
+  <parameter name="Firstname" value="Sarah"></parameter>
+  <parameter name="lastname" value="Baby"></parameter>
+  <parameter name="address" value="Radiance Aparments Perumbakkam"></parameter>
+  <parameter name="cardnum" value="3543456678994578"></parameter>
+  <parameter name="cardtype" value="VISA"></parameter>
+  <parameter name="expirymonth" value="7"></parameter>
+  <parameter name="expiryyear" value="2026"></parameter>
+  <parameter name="cvv" value="678"></parameter>
+    <classes>
+      <class name="org.testngdemo.SampleAdactinHotel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
